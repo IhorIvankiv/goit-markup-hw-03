@@ -256,12 +256,11 @@ body {
 
 .team-item {
   background: #fff;
-  padding-bottom: 32px;
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-img {
-  padding-bottom: 32px;
+.team-card {
+  padding: 32px 16px;
 }
 
 .team-subtitle {
@@ -276,21 +275,25 @@ body {
 }
 
 .filter-section {
-  padding-bottom: 72px;
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .filter-button-list {
   display: flex;
   justify-content: center;
-  padding-top: 96px;
-  padding-bottom: 72px;
-  gap: 24px;
+  margin-bottom: 72px;
+  gap: 48px 24px;
 }
 
 .filter-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 48px 24px;
+}
+
+.filter-list-item {
+  width: calc(100%-48/...);
 }
 
 .card-content {
